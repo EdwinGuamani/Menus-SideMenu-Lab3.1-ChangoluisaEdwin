@@ -49,6 +49,8 @@ Puedes agregar un submenú a un elemento en cualquier menú agregando <menu> com
           android:title="@string/file" >
         <!-- "file" submenu -->
         <menu>
+            
+            
             <item android:id="@+id/create_new"
                   android:title="@string/create_new" />
             <item android:id="@+id/open"
@@ -57,3 +59,4 @@ Puedes agregar un submenú a un elemento en cualquier menú agregando <menu> com
     </item>
 </menu>
 Para usar el menú en tu actividad, tienes que aumentar el recurso de menú (convertir el recurso XML en un objeto programable) mediante MenuInflater.inflate(). En las siguientes secciones, verás cómo aumentar un menú para cada tipo de menú.
+![10101010](https://github.com/EdwinGuamani/Menus-SideMenu-Lab3.1-ChangoluisaEdwin/assets/133244382/107217c4-8b8c-49a4-be2e-0f449c192f47)
